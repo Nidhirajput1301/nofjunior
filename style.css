@@ -1,0 +1,218 @@
+body {
+  height: 200vh;
+  background-color: aquamarine;
+}
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+    background-color: cadetblue;
+  }
+  .sidenav a {font-size: 18px;}
+
+} */
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {font-size: 18px;}
+
+} 
+
+/* section 1 */
+
+.sec-one {
+  border: 1px solid skyblue;
+  height: 80vh;
+}
+
+.sec-one .row {
+   margin: 6rem 3rem auto 3rem;
+}
+
+.sec-one .row div {
+
+}
+
+.sec-one h3 {
+  color: purple;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sec-one h2 {
+  color: red;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sec-one button {
+  width: 100%;
+  height: 60px;
+  font-size: 25px;
+  margin-bottom: 20px; 
+}
+
+.sec-one .btn-1 {
+   font-weight: 600;
+   background-color: purple;
+   color: white;
+}
+
+.sec-one .btn-2 {
+  padding-left: 0;
+  background-color: yellow;
+  border: 3px solid red;
+}
+
+.sec-one iframe {
+  width: 100%;
+  height: 100%;
+  border: 3px solid purple;
+}
+
+
+        /* section 2 */
+
+.sec-two {
+  background-color: yellow;
+  height: 80vh;
+  padding: 4rem;
+} 
+
+.sec-two .row .col-md {
+  /* margin: auto 5px ; */
+  /* border: 1px solid rebeccapurple; */
+  position: relative;
+  text-align: center;
+}
+
+.sec-two .img-div{
+  border: 1px solid red;
+}
+
+.sec-two .img-div .img{
+   width: 100%;
+}
+
+.sec-two .detail{
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 230px;
+  left: 24px;
+  width: 80%;
+  font-size: 20px;
+}
+
+
+/* section 3 */
+
+.sec-three {
+  padding: 3rem;
+  margin: auto 10rem;
+}
+
+.sec-three .row .col-md {
+  color: purple;
+  line-height: 1.8;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sec-three h2{
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.sec-three iframe{
+  margin-top: 20%;
+  height: 70%;
+  width: 100%;
+}
+
+/* section 4 */
+
+.sec-four {
+  padding: 3rem 11rem;
+  background-color: white;
+}
+
+.sec-four .row .col-md {
+  color: purple;
+  line-height: 1.8;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sec-four h2{
+  margin-bottom: 2rem;
+  color: purple;
+  font-weight: 700;
+}
+
+.sec-four img{
+  width: 100%;
+  height: 280px;
+}
+
+/* section 5 */
+
+.sec-five {
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sec-five h2{
+  margin: 40px auto;
+}
+
+.sec-five .row {
+  border: 1px solid red;
+}
+
+.sec-five .col-md {
+  border: 1px solid green;
+  background-color: yellow;
+}
+
+.sec-five img {
+  width: 100%;
+  height: 50%;
+}
