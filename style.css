@@ -166,6 +166,22 @@ body {
   width: 100%;
 }
 
+/* parallax */
+
+.parallax {
+  /* The image used */
+  background-image: url("images/bg-image.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* section 4 */
 
 .sec-four {
@@ -235,4 +251,25 @@ body {
   font-weight: 600;
   margin-bottom: 15px;
   width: 50%;
+}
+
+
+/* section 6 */
+
+.sec-six {
+  background-color: yellow;
+}
+
+.sec-six h6 {
+padding-left: 10%;
+margin-top: 40px;
+font-size: 18px;
+}
+
+.sec-six ul li {
+  list-style: none;
+  color: blue;
+  line-height: 2.5;
+  font-size: 17px;
+  font-weight: 500;
 }
