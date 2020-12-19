@@ -34,26 +34,26 @@
         margin-bottom: 30px;
       }
 
-      form select {
+      form select, input {
         width: 90%;
         height: 55px;
         margin-bottom: 35px;
         border: 1px solid #2cc;
         box-shadow: 5px 8px #aee;
+        background-color: rgb(240, 248, 248);
       }
 
-
-      form input{
-        width: 90%;
-        height: 55px;
-        margin-bottom: 35px;
-        border: 1px solid #2cc;
-        box-shadow: 5px 8px #aee;
+      select:hover, input:hover {
+        background-color: white;
       }
 
       input::placeholder{
         color: #2cc;
         padding-left: 10px;
+      }
+
+      input:focus, textarea:focus, select:focus{
+        outline: none;
       }
 
       button {
@@ -91,7 +91,8 @@
 <div>
   <form>
       <h4>NOF JUNIOR SCHOOL REGISTRATION</h4>
-      <select placeholder="Register As">
+      <select>
+          <option value="" disabled selected>Register As</option>
           <option>Principal</option>
           <option>Vice Principal</option>
           <option>Oylmpiad Coodinator</option>
