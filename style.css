@@ -1,10 +1,22 @@
+:root {
+    --white: #9ee;
+    --black: #aee;
+    --pink: #44e;
+    --grey: #f86;
+    --grey2: #fd5;
+    --grey-alt: #f66;
+    --yellow: #f86;
+    --green: #8bf;
+    --nsdjd: #ce5;
+    --dnfff: #2cc;
+  }
+
+
 body {
   height: 200vh;
   background-color: aquamarine;
+  overflow-x: hidden;
 }
-
-
-
 
 .sidenav {
   height: 100%;
@@ -52,6 +64,9 @@ body {
   .sidenav a {font-size: 18px;}
 
 } 
+
+
+
 
 /* section 1 */
 
@@ -265,11 +280,175 @@ padding-left: 10%;
 margin-top: 40px;
 font-size: 18px;
 }
-
+ 
 .sec-six ul li {
   list-style: none;
   color: blue;
   line-height: 2.5;
   font-size: 17px;
   font-weight: 500;
+}
+
+
+/* section 7 */
+
+.sec-seven {
+  background-color: #f66;
+  color: white;
+}
+
+.sec-seven .row {
+  margin: 2% 12%;
+}
+
+.sec-seven h2 {
+  font-weight: 700;
+  margin: 40px auto;
+}
+
+.sec-seven .address p{
+   margin: 30px auto;
+   font-weight: 600;
+}
+
+.sec-seven .icon {
+  height: 40px;
+  width: 150px;
+  border: 2px solid white;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.sec-form .form {
+  padding-right: 0;
+}
+
+.sec-seven form input {
+  border: 1px solid white;
+  background-color: transparent;
+  height: 40px;
+  padding-left: 10px;
+  width: 230px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.sec-seven .even{
+  margin-left: 12px;
+}
+
+.sec-seven form input::placeholder {
+  color: white;
+}
+
+.sec-seven form textarea {
+  border: 1px solid white;
+  background-color: transparent;
+  height: 100px;
+  padding-left: 10px;
+  width: 100%;
+  font-weight: 600;
+  margin-bottom: 30px;
+  resize: none;
+  padding-top: 10px;
+}
+
+.sec-seven form textarea::placeholder {
+  color: white;
+}
+
+.sec-seven .submit {
+  height: 60px;
+}
+
+.sec-seven .submit div {
+  float: left;
+  height: 100%;
+  width: 220px;
+}
+
+.sec-seven .submit button {
+  float: left;
+  margin-left: 68%;
+  margin-top: -11%;
+  color: white;
+  font-weight: 600;
+  background-color:  #44e;
+  border: none;
+  width: 150px;
+  height: 80%;
+}
+
+.sec-seven .form p {
+  font-weight: 600;
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  /* sec one */
+
+  .sec-one {
+  border: 1px solid skyblue;
+  height: 100vh;
+  }
+
+  /* sec two  */
+
+  .sec-two {
+    background-color: yellow;
+    height: fit-content;
+    padding: 4rem;
+  } 
+
+.sec-two .row .col-md {
+  /* margin: auto 5px ; */
+  /* border: 1px solid rebeccapurple; */
+  position: relative;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sec-two .img-div .img{
+   width: 100%;
+   height: 300px;
+}
+
+.sec-two .detail{
+  border: 1px solid black;
+  background-color: white;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  width: 80%;
+  font-size: 20px;
+}
+
+
+/* sec three */
+
+ .sec-three {
+  padding: 10px;
+  margin: auto 10px;
+}
+
+.sec-three iframe{
+  margin: 10% auto;
+  height: 70%;
+  width: 100%;
+}
+
+/* sec four */
+
+.sec-four {
+  background-color: white;
+  padding: 20px 10px;
+}
+
+
 }
