@@ -21,16 +21,16 @@
         font-weight: 700;
       }
       
-      .row {
+      .one .row, .two .row {
         width: 60%;
         margin: auto 20%;
       }
 
-      .col-md {
+      .one .col-md, .two .col-md {
         margin: 30px auto;
       }
 
-      .container {
+      .one .container , .two .container {
         position: relative;
         width: 50%;
       }
@@ -81,6 +81,22 @@
       /* div two */
         .two {
           background-color: #2cc;
+        }
+
+        @media screen and (max-width: 680px) {
+          .one .row , .two .row{
+            width: 100%;
+          }
+
+         .one .col-md, .two .col-md {
+            margin: 10px auto;
+            margin-left: -100px;
+          }
+
+          .one .container , .two .container {
+            position: relative;
+            width: 100%;
+          }
         }
 
     </style>
@@ -156,7 +172,9 @@
     <div class="col-md container">
        <img src="images/student-benefits-2.png" class="image">
        <div class="overlay">
-         <div class="text">Medals for Toppers & Certificates for all the participants</div>
+         <div class="text">Detailed Student 
+          Reports to identify 
+          areas of improvement</div>
        </div>
     </div>
   </div>
@@ -168,14 +186,16 @@
   <div class="row">
    <div class="col-md container">
        <img src="images/school-benefits-1.png" class="image">
-       <div class="overlay" style="background-color: purple;">
-         <div class="text">Medals for Toppers & Certificates for all the participants</div>
+       <div class="overlay" style="background-color: rgb(238, 160, 238);">
+         <div class="text">Appreciation mementos
+          for all the schools</div>
        </div>
     </div>
    <div class="col-md container">
        <img src="images/school-benefits-2.png" class="image">
-       <div class="overlay" style="background-color: purple;">
-         <div class="text">Medals for Toppers & Certificates for all the participants</div>
+       <div class="overlay" style="background-color:  rgb(238, 160, 238);">
+         <div class="text">Best School,
+           Principal & Coordinator Awards</div>
        </div>
     </div>
 </div>

@@ -214,6 +214,24 @@ body {
   font-size: 20px;
 }
 
+.sec-two .detail a {
+  color: #2cc;
+  font-weight: 700;
+  border-bottom: 2px solid #2cc;
+}
+
+.sec-two .detail a span{
+  color: #44f;
+  font-weight: 700;
+  border-bottom: 2px solid #44f;
+}
+
+.sec-two .detail p {
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
 
 /* section 3 */
 
@@ -505,13 +523,10 @@ body {
 }
 
 .sec-two .detail{
-  border: 1px solid black;
-  background-color: white;
   position: absolute;
   top: 90%;
   left: 10%;
   width: 80%;
-  font-size: 20px;
 }
 
 
