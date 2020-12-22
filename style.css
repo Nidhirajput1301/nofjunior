@@ -142,27 +142,28 @@ body {
 
 .sec-one .btn-1 {
    font-weight: 600;
-   background-color: purple;
+   background-color: #44e;
    color: white;
+   border: none;
 }
 
 .sec-one .btn-2 {
   padding-left: 0;
-  background-color: yellow;
-  border: 3px solid red;
+  background-color: #fd5;
+  border: 3px solid #f66;
 }
 
 .sec-one iframe {
   width: 100%;
   height: 100%;
-  border: 3px solid purple;
+  border: 3px solid #44e;
 }
 
 
         /* section 2 */
 
 .sec-two {
-  background-color: yellow;
+  background-color: #fd5;
   height: auto;
   padding: 4rem;
 } 
@@ -179,7 +180,7 @@ body {
 }
 
 .sec-two .img-div{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .sec-two .img-div .img{
@@ -187,7 +188,7 @@ body {
 }
 
 .sec-two .detail{
-  border: 1px solid black;
+  border: 1px solid grey;
   background-color: white;
   position: absolute;
   top: 280px;
@@ -205,7 +206,7 @@ body {
 }
 
 .sec-three .row .col-md {
-  color: purple;
+  color: #44e;
   line-height: 1.8;
   font-weight: 500;
   font-size: 16px;
@@ -247,7 +248,7 @@ body {
 }
 
 .sec-four .row .col-md {
-  color: purple;
+  color: #44e;
   line-height: 1.8;
   font-weight: 500;
   font-size: 16px;
@@ -255,7 +256,7 @@ body {
 
 .sec-four h2{
   margin-bottom: 2rem;
-  color: purple;
+  color: #44e;
   font-weight: 700;
 }
 
@@ -267,23 +268,22 @@ body {
 /* section 5 */
 
 .sec-five {
-  border: 1px solid black;
   text-align: center;
   padding-bottom: 50px;
 }
 
 .sec-five h2{
   margin: 40px auto;
+  color: #44e;
+  font-weight: 700;
 }
 
 .sec-five .row {
-  border: 1px solid red;
   margin: 30px;
 }
 
 .sec-five .col-md {
-  border: 1px solid green;
-  background-color: yellow;
+  background-color: #fd5;
   margin: auto 10px;
   padding: 0;
 }
@@ -291,6 +291,8 @@ body {
 .sec-five img {
   width: 100%;
   height: 100%;
+  border-top: 5px solid #44e;
+  border-bottom: 5px solid #44e;
 }
 
 .sec-five h4 {
@@ -318,14 +320,14 @@ body {
 }
 
 .sec-six h6 {
-padding-left: 10%;
-margin-top: 40px;
-font-size: 18px;
+  padding-left: 10%;
+  margin-top: 40px;
+  font-size: 18px;
 }
  
 .sec-six ul li {
   list-style: none;
-  color: blue;
+  color: #44e;
   line-height: 2.5;
   font-size: 17px;
   font-weight: 500;
