@@ -18,16 +18,16 @@
         overflow-x: hidden;
       }
 
-      .col-md {
+      .one .col-md {
         padding: 0;
       }
 
-      form {
+      .one form {
         padding-left: 10%;
         margin: 20px auto;
       }
 
-      form input, select {
+      .one form input, .one select {
         width: 80%;
         border: none;
         border-bottom: 2px solid black;
@@ -35,24 +35,24 @@
         margin-top: 10px;
       }
 
-      form input::placeholder {
+      .one form input::placeholder {
         color: black;
         font-weight: 700;
         padding-left: 10px;
       }
 
-      input:hover, select:hover{
+      .one input:hover, select:hover{
         outline: none;
         border-bottom: 1px solid black;
       }
 
-      input:focus, select:focus{
+      .oneinput:focus, select:focus{
         outline: none;
         border-bottom: 2px solid red;
       }
 
 
-      form button {
+      .one form button {
         border: none;
         font-size: 25px;
         font-weight: 700;
@@ -60,7 +60,7 @@
         background: none;
       }
 
-      button:hover {
+      .one button:hover {
         color: skyblue;
       }
 
@@ -125,7 +125,7 @@
     </div>
   </nav>
 
-<section>
+<section class="one">
   <div class="">
     <div class="row">
       <div class="col-md">
@@ -145,6 +145,22 @@
           <input placeholder="Your School's Name">
           <input placeholder="Mobile">
 
+
+          <div class="checkmark" style=
+           "width: 200px;
+            height:50px; 
+            margin-top:20px; 
+            padding:10px;
+            background-color:white;
+            border-radius:1px;" >
+            <label>
+              <input type="checkbox" style="
+              float: left; 
+              width:30px; 
+              margin-top:-18px;" >
+              <span style="float: left;"> I'm not a robot</span>
+            </label>
+          </div>
           
 
           <button>Submit Your Response</button>
@@ -219,7 +235,24 @@
 
           
               <div class="row submit">
-                <div class="col-sm"><div>I'm not a robot</div></div>
+                <div class="col-sm">
+                  <div class="checkmark" style=
+                    "width: 200px;
+                      height:50px;  
+                      padding:10px;
+                      background-color:white;
+                      border-radius:1px;" >
+                      <label>
+                        <input type="checkbox" style="
+                        float: left; 
+                        width:30px; 
+                        margin-top:-4px;
+                        " >
+                        <span style="float: left;
+                        color: black;"> I'm not a robot</span>
+                      </label>
+                  </div>
+                </div>
                 <div class="col-sm"><button>Submit</button></div>
               </div>
             
