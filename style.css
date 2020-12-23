@@ -52,7 +52,7 @@
 
 body {
   height: 200vh;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .sidenav {
@@ -118,6 +118,47 @@ body {
   color: #44e !important;
   font-weight: 600;
 }
+
+.main{
+   margin-left: -10px;
+   margin-right: 170px;
+   margin-top: 7px;
+}
+
+.main p {
+  color: #44e;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.hide {
+	background: #fd5;
+	width: 230px;
+	/* margin: 10px auto; */
+	color: aliceblue;
+	display: none;
+	position: absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.hide li {
+  list-style: none;
+  margin-left: -30px;
+  padding-bottom: 5px;
+}
+
+.hide a {
+	color: black;
+  text-decoration: none;
+  display: block;
+  color: #44e;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main:hover .hide{display: block;}
 
 
 
