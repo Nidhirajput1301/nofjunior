@@ -19,7 +19,8 @@
   display: block;
 }
 
-.main:hover .hide{display: block;}
+.main:hover .hide
+  {display: block;}
 
 /* .button {
 	color: aquamarine;
