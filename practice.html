@@ -65,10 +65,27 @@
        padding:12%;
      }
 
-     .container {
-      /* margin: 0;
-       width: 200%; */
+     @media screen and (max-width: 680px) {
+
+      .one .row {
+        display: inline;
+        margin: auto 0;
+      }
+        .one .col-md {
+          width: 100%;
+        }
+
+        .one img {
+          width: 100%;
+        }
+
+        .one .text {
+          margin-top: -100px;
+        }
      }
+
+     
+
 
       
     </style>
@@ -136,7 +153,7 @@
 <section class="one">
   <div class="">
   <div class="row">
-    <div class="col-md">
+    <div class="col-md image">
       
       <img src="images/pratise-kit.png" alt="">
     </div>

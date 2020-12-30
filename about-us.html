@@ -67,7 +67,7 @@
         }
 
         .three span h3 {
-          font-size: 700;
+          font-weight: 700;
           font-size: 50px;
           color: white;
           margin-left: 50px;
@@ -76,10 +76,22 @@
       .three:hover span {display:none}
       .three:hover:before {
         content:"4500+ Schools in 11 Countries";
-        font-size: 700;
+        font-weight: 700;
         font-size: 50px;
         color: white;
         margin-left: 50px;
+      }
+
+      @media screen and (max-width: 680px) {
+        .text {
+          margin: 20px;
+        }
+
+         .three span h3, .three:hover:before {
+          font-size: 30px;
+          margin-left: 10px;
+        }
+
       }
  
 
