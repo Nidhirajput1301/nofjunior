@@ -62,7 +62,7 @@ body {
 
 .hide {
 	background: #fd5;
-	width: 230px;
+	width: 235px;
 	/* margin: 10px auto; */
 	color: aliceblue;
 	display: none;
@@ -73,7 +73,7 @@ body {
 
 .hide li {
   list-style: none;
-  margin-left: -30px;
+  margin-left: -44px;
   padding-bottom: 5px;
   text-align: center;
 }
@@ -552,13 +552,15 @@ body {
     margin-bottom: 150px;
   }
 
-
+   .sec-two .row:last-child{
+    margin-top: 0;
+  } 
 
   /* sec three */
 
   .sec-three {
     padding: 10px;
-    margin: auto 10px;
+    margin: auto;
   }
 
   .sec-three iframe{
@@ -581,6 +583,11 @@ body {
   margin-bottom: 10px;
 }
 
+/* section six */
+
+.sec-six ul {
+  padding-left: 0 ;
+}
 
 /* sec seven */
 
@@ -614,19 +621,30 @@ body {
   margin-left: 0px;
 }
 
+.sec-seven .submit {
+  height: auto;
+}
+
+.sec-seven .submit button{
+  min-height: auto;
+  margin-top: 10px;
+}
+
 /* sec eight */
  
 .sec-eight .col-md {
   margin-bottom: 10px;
-  text-align: center;
 }
 
-.sec-eight ul li {
-  float: left;
-  list-style: none;
-  padding-right: 5px;
-  padding-left: 5px;
+.sec-eight .col-md:first-child{
+  padding-left: 0px;
+  padding-right: 0px;
 }
+
+.sec-eight .col-md li a{
+  margin-left: -30px;
+}
+
 
 
 }
